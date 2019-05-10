@@ -1,0 +1,21 @@
+body{
+    background-image:  url("/assets/img/Picture.jpg");
+}
+
+.darker-span {
+    filter: brightness(50%);
+  }
+
+.card-panel {
+    margin: 0%;
+    padding: 0%;
+    border: 2px red solid;
+    text-align: center;
+
+
+}
+#burgerCards {
+    margin: 0%;
+    padding: 0%;
+    border: 2px red solid;
+}
