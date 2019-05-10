@@ -17,10 +17,6 @@ app.use("/", router);
 
 var PORT = process.env.PORT || 3000;
 
-// app.use(bodyParser.json());
-// app.use(bodyParser.text());
-// app.use(bodyParser.json({ type: "application/vnd.api+json" }));
-
 app.listen(PORT, function () {
     console.log("server listening to on http://localhost:" + PORT);
 });
